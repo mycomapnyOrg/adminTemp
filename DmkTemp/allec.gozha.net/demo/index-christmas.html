@@ -1,0 +1,824 @@
+<!doctype html>
+<html lang="en-us">
+
+
+<!-- Mirrored from allec.gozha.net/demo/index-christmas.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Jun 2017 09:04:54 GMT -->
+<head>
+    <!-- Basic Page Needs -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <title>Allec - Christmas Landing Page</title>
+    <meta name="description" content="A Template by Congruity Hub team">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Congruity Hub team">
+    <!-- Mobile Specific Metas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="telephone=no" name="format-detection">
+    <!-- Fonts -->
+    <!-- Open Sans -->
+    <link href='../../fonts.googleapis.com/css2c37.css?family=Open+Sans:300,400italic,600,700italic,400,700,800,800italic' rel='stylesheet' type='text/css'>
+    <!-- VarelaRound -->
+    <link href='../../fonts.googleapis.com/cssfa63.css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <!-- Icon Font - Font Awesome -->
+    <link href="../../maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Stylesheets -->
+    <!-- External -->
+    <!-- Mobile menu -->
+    <link href="external/z-nav/z-nav.css" rel="stylesheet">
+    <!-- Custom -->
+    <link href="css/bootstrap3860.css?v=1" rel="stylesheet" />
+    <script src="../../ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <script>
+    // Style editor version
+    var version = '1.1';
+
+    // Check if LocalStorage has saved styles
+    if (localStorage.inputs) {
+        var savedInputs = localStorage.inputs;
+        savedInputs = JSON.parse(savedInputs);
+    }
+
+    var stylesheet = localStorage.stylesheet;
+    if (stylesheet && savedInputs.version == version) {
+        var style = document.createElement('style');
+        style.setAttribute('data-editor-css', 'true')
+        style.textContent = stylesheet;
+        document.head.appendChild(style);
+    } else {
+        var link = document.createElement('link');
+        link.href = 'css/style.css';
+        link.rel  = 'stylesheet';
+        link.type = 'text/css';
+        document.head.appendChild(link);
+        localStorage.clear();
+    }
+
+    // Loading fonts which have been saved in LocalStorage
+    if (savedInputs && savedInputs.version == version) {
+        WebFont.load({
+            google: {
+                families: [savedInputs.brand_font, savedInputs.regular_font]
+            }
+        });
+    }
+    </script>
+    <!-- *** Favicons *** -->
+    <!--[if IE]><link rel="icon"  href="favicons/favicon_16x16.ico" /><![endif]-->
+    <link rel="icon" href="favicons/favicon_96x96.png">
+    <!-- Specifying a Webpage Icon for Web Clip -->
+    <link rel="apple-touch-icon-precomposed" href="favicons/favicon_57x57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicons/favicon_72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/favicon_114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicons/favicon_144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="favicons/favicon_180x180.png">
+    
+    <!-- Modernizr -->
+    <script src="external/modernizr/modernizr.custom.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]> 
+    	<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script> 
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>		
+    <![endif]-->
+    <!--[if lte IE 9]>
+        <link href="css/ie9.css?v=1" rel="stylesheet" />
+    <![endif]-->
+</head>
+
+<body>
+    <div class="wrapper" id="top">
+        <!-- Header section -->
+        <header class="header-offer">
+            <div class="header-inner">
+                <div class="header-fixed header-down">
+                    <div class="container">
+                        <!--  Logo  -->
+                        <a class="logo" href="index-2.html">
+                            <!-- Remove comments to choose image and add comment to h1 -->
+                            <!--<img src="images/logo-full.png" alt="">-->
+                            <svg class="logo__svg" width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path class="logo__svg-path" d="m18.8,14c-1.2,-0.2 -2.3,0.1 -3.2,0.6c-0.8,0.5 -1.8,0.2 -2.4,-0.7c-0.4,-0.8 -0.2,-1.8 0.7,-2.3c1.4,-0.7 3,-1.2 4.7,-1.1c-0.2,-0.1 -0.4,-0.2 -0.6,-0.4c-0.8,-0.7 -1.8,-1.3 -3,-1.4c-2.6,-0.3 -5.1,1.5 -5.4,4s1.6,4.9 4.2,5.2c1.2,0.1 2.3,-0.1 3.2,-0.6c0.8,-0.5 1.8,-0.2 2.4,0.7c0.4,0.8 0.2,1.8 -0.7,2.3c-1.3,0.7 -3,1.2 -4.7,1.1c0.2,0.1 0.4,0.2 0.6,0.4c0.8,0.7 1.8,1.3 3,1.4c2.6,0.3 5.1,-1.5 5.4,-4c0.4,-2.4 -1.5,-4.8 -4.2,-5.2zm-2.8,-14c-8.8,0 -16,7.2 -16,16s7.2,16 16,16c8.8,0 16,-7.2 16,-16s-7.2,-16 -16,-16zm10.5,19.7c-0.6,4.5 -4.8,7.5 -9.4,7c-2,-0.3 -3.7,-1.2 -4.9,-2.4c-0.7,-0.7 -0.7,-1.8 0,-2.4c0.3,-0.3 0.7,-0.4 1,-0.5c-4.4,-0.6 -7.6,-4.7 -7.1,-9c0.6,-4.5 4.8,-7.5 9.3,-7c2,0.2 3.7,1.2 5,2.4c0.7,0.7 0.7,1.8 0,2.4c-0.3,0.3 -0.7,0.4 -1,0.5c4.5,0.6 7.7,4.6 7.1,9z" fill="#ffffff">
+                                </g>
+                            </svg>
+                            <h1 class="logo__text">Allec</h1>
+                        </a>
+                        <!-- End Logo -->
+                        <!-- Navigation section -->
+                        <nav class="z-nav">
+                            <!-- Toggle for menu mobile view -->
+                            <a href="#" class="z-nav__toggle">
+                                <span class="menu-icon"></span>
+                                <span class="menu-text">navigation</span>
+                                <div class="menu-head"></div>
+                            </a>
+                            <div class="z-nav-inner">
+                                <ul class="z-nav__list">
+                                    <li class="z-nav__item">
+                                        <!-- Subsidiary menu toogle button -->
+                                        <span class="z-nav__toggle-sub plus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></span>
+                                        <a class="z-nav__link z-nav__link--active" href="index-2.html">Home</a>
+                                        <!-- Subsidiary menu list-->
+                                        <ul class="z-nav__list-secondary">
+                                            <li class="z-nav__item"><a class="z-nav__link" href="index1.html">Homepage version 1 (Revolution slider)</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="index2.html">Homepage version 2 (Royal slider)</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="index3.html">Homepage version 3 (FlexSlider)</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="index4.html">Homepage version 4 (Original scrolling)</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="index5.html">Homepage version 5 (Bubble canvas animation)</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="index-host.html">Hosting homepage</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="index-animation.html">Homepage with canvas animation</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="index-2.html">Hero header version (Video)</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="onepage-layout.html">Onepage version</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="index-christmas.html">Christmas landing page</a></li>
+                                        </ul>
+                                        <!-- end subsidiary menu list-->
+                                    </li>
+                                    <li class="z-nav__item">
+                                        <!-- Subsidiary menu toogle button -->
+                                        <span class="z-nav__toggle-sub plus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></span>
+                                        <a class="z-nav__link" href="about.html">About</a>
+                                        <!-- Subsidiary menu list-->
+                                        <ul class="z-nav__list-secondary">
+                                            <li class="z-nav__item"><a class="z-nav__link" href="about.html">About</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="single-employee.html">Single employee</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="careers.html">Careers</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="testimonials.html">Testimonials</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="contact1.html">Contact version 1</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="contact2.html">Contact version 2</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="contact3.html">Contact version 3</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="contact4.html">Contact version 4</a></li>
+                                        </ul>
+                                        <!-- end subsidiary menu list-->
+                                    </li>
+                                    <li class="z-nav__item">
+                                        <!-- Subsidiary menu toogle button -->
+                                        <span class="z-nav__toggle-sub plus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></span>
+                                        <a class="z-nav__link" href="services.html">Services</a>
+                                        <!-- Subsidiary menu list-->
+                                        <ul class="z-nav__list-secondary">
+                                            <li class="z-nav__item"><a class="z-nav__link" href="services.html">Services version 1</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="services2.html">Services version 2</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="services3.html">Services version 3</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="single-service.html">Single service</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="pricing-tables.html">Pricing</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="support.html">Support</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="dashboard.html">Dashboard</a></li>
+                                        </ul>
+                                        <!-- end subsidiary menu list-->
+                                    </li>
+                                    <li class="z-nav__item">
+                                        <!-- Subsidiary menu toogle button -->
+                                        <span class="z-nav__toggle-sub plus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></span>
+                                        <a class="z-nav__link" href="gallery-3col.html">Portfolio</a>
+                                        <!-- Subsidiary menu list-->
+                                        <ul class="z-nav__list-secondary">
+                                            <li class="z-nav__item"><a class="z-nav__link" href="gallery-2col.html">Portfolio 2 columns</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="gallery-3col.html">Portfolio 3 columns</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="gallery-4col.html">Portfolio 4 columns</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="gallery-full.html">Portfolio fullwidth</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="case-study.html">Case study</a></li>
+                                        </ul>
+                                        <!-- end subsidiary menu list-->
+                                    </li>
+                                    <li class="z-nav__item">
+                                        <!-- Subsidiary menu toogle button -->
+                                        <span class="z-nav__toggle-sub plus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></span>
+                                        <a class="z-nav__link" href="index-commerce.html">Shop</a>
+                                        <!-- Subsidiary menu list-->
+                                        <ul class="z-nav__list-secondary">
+                                            <li class="z-nav__item"><a class="z-nav__link" href="shop-ecwid.html">Ecwid E-commerce</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="index-commerce.html">Homepage</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="shop-grid-full.html">Catalog fullwidth grid</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="shop-list-full.html">Catalog fullwidth list</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="shop-grid.html">Catalog grid with sidebar</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="shop-list.html">Catalog list with sidebar</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="single-product.html">Single product with sidebar</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="single-product-full.html">Single product fullwidth</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="wishlist.html">Wishlist</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="orders.html">My orders</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="checkout.html">Checkout</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="shopping-cart.html">Shopping cart</a></li>
+                                        </ul>
+                                        <!-- end subsidiary menu list-->
+                                    </li>
+                                    <li class="z-nav__item">
+                                        <!-- Subsidiary menu toogle button -->
+                                        <span class="z-nav__toggle-sub plus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></span>
+                                        <a class="z-nav__link" href="blog.html">Blog</a>
+                                        <!-- Subsidiary menu list-->
+                                        <ul class="z-nav__list-secondary">
+                                            <li class="z-nav__item"><a class="z-nav__link" href="blog.html">Blog with sidebar</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="blog-full.html">Blog fullwidth</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="blog-masonry.html">Blog masonry</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="blog-timeline.html">Blog timeline</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="single-post.html">Single post with sidebar</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="single-post-full.html">Single post fullwidth</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="single-post-disqus.html">Single post with Disqus (with sidebar)</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="single-post-full-disqus.html">Single post with Disqus (fullwidth)</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="blog-audio.html">Blog audio</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="blog-video.html">Blog video</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="blog-author.html">Post author</a></li>
+                                        </ul>
+                                        <!-- end subsidiary menu list-->
+                                    </li>
+                                    <li class="z-nav__item">
+                                        <!-- Subsidiary menu toogle button -->
+                                        <span class="z-nav__toggle-sub plus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></span>
+                                        <a class="z-nav__link" href="site-map.html">Pages</a>
+                                        <!-- Subsidiary menu list-->
+                                        <ul class="z-nav__list-secondary">
+                                            <li class="z-nav__item"><a class="z-nav__link" href="index-rtl.html"> RTL version</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="index2-boxed.html"> Boxed version</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="site-map.html"> Sitemap</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="404.html">404 error</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="comming-soon.html">Coming soon</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="login.html">Login/registration</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="forum.html">Forum page</a></li>
+                                            <li class="z-nav__item"><a class="z-nav__link" href="forum-thread.html">Forum thread</a></li>
+                                            <li class="z-nav__item">
+                                                <span class="z-nav__toggle-sub plus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></span>
+                                                <a class="z-nav__link" href="#">Dark headers</a>
+                                                <ul class="z-nav__list-secondary z-nav_nested">
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="header-1.html">Default header</a>
+                                                        <li class="z-nav__item"><a class="z-nav__link" href="header-2.html">Header with social icons</a>
+                                                            <li class="z-nav__item"><a class="z-nav__link" href="header-3.html">Header with centred logo</a>
+                                                                <li class="z-nav__item"><a class="z-nav__link" href="header-4.html">Two-row Header</a>
+                                                                    <li class="z-nav__item"><a class="z-nav__link" href="header-5.html">Simplified header</a>
+                                                                        <li class="z-nav__item"><a class="z-nav__link" href="header-6.html">E-commerce header</a>
+                                                </ul>
+                                                </li>
+                                                <li class="z-nav__item">
+                                                    <span class="z-nav__toggle-sub plus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></span>
+                                                    <a class="z-nav__link" href="#">Light headers</a>
+                                                    <ul class="z-nav__list-secondary z-nav_nested">
+                                                        <li class="z-nav__item"><a class="z-nav__link" href="header-1-light.html">Default header</a>
+                                                            <li class="z-nav__item"><a class="z-nav__link" href="header-2-light.html">Header with social icons</a>
+                                                                <li class="z-nav__item"><a class="z-nav__link" href="header-3-light.html">Header with centred logo</a>
+                                                                    <li class="z-nav__item"><a class="z-nav__link" href="header-4-light.html">Two-row Header</a>
+                                                                        <li class="z-nav__item"><a class="z-nav__link" href="header-5-light.html">Simplified header</a>
+                                                                            <li class="z-nav__item"><a class="z-nav__link" href="header-6-light.html">E-commerce header</a>
+                                                    </ul>
+                                                    </li>
+                                                    <li class="z-nav__item">
+                                                        <span class="z-nav__toggle-sub plus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></span>
+                                                        <a class="z-nav__link" href="#">Dark footers</a>
+                                                        <ul class="z-nav__list-secondary z-nav_nested">
+                                                            <li class="z-nav__item"><a class="z-nav__link" href="footer-1.html">Default footer</a></li>
+                                                            <li class="z-nav__item"><a class="z-nav__link" href="footer-2.html">Footer with subscription</a></li>
+                                                            <li class="z-nav__item"><a class="z-nav__link" href="footer-3.html">Footer with contact form</a></li>
+                                                            <li class="z-nav__item"><a class="z-nav__link" href="footer-4.html">Simplified footer</a></li>
+                                                            <li class="z-nav__item"><a class="z-nav__link" href="footer-5.html">Footer with instagram feed</a></li>
+                                                            <li class="z-nav__item"><a class="z-nav__link" href="footer-6.html">Centered footer</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="z-nav__item">
+                                                        <span class="z-nav__toggle-sub plus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></span>
+                                                        <a class="z-nav__link" href="#">Light footers</a>
+                                                        <ul class="z-nav__list-secondary z-nav_nested">
+                                                            <li class="z-nav__item"><a class="z-nav__link" href="footer-1-light.html">Default footer</a></li>
+                                                            <li class="z-nav__item"><a class="z-nav__link" href="footer-2-light.html">Footer with subscription</a></li>
+                                                            <li class="z-nav__item"><a class="z-nav__link" href="footer-3-light.html">Footer with contact form</a></li>
+                                                            <li class="z-nav__item"><a class="z-nav__link" href="footer-4-light.html">Simplified footer</a></li>
+                                                            <li class="z-nav__item"><a class="z-nav__link" href="footer-5-light.html">Footer with instagram feed</a></li>
+                                                            <li class="z-nav__item"><a class="z-nav__link" href="footer-6-light.html">Centered footer</a></li>
+                                                        </ul>
+                                                    </li>
+                                        </ul>
+                                        <!-- end subsidiary menu list-->
+                                        </li>
+                                        <li class="z-nav__item">
+                                            <!-- Subsidiary menu toogle button -->
+                                            <span class="z-nav__toggle-sub plus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></span>
+                                            <a class="z-nav__link" href="shortcodes/accordions.html">Shortcodes</a>
+                                            <!-- Subsidiary menu list-->
+                                            <ul class="z-nav__list-secondary mega-menu">
+                                                <div class="col-sm-3 col-md-2">
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/accordions.html"><i class="fa fa-plus-circle"></i>Accordions</a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/animation.html"><i class="fa fa-magic"></i>Animation</a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/buttons.html"><i class="fa fa-link"></i>Buttons</a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/charts.html"><i class="fa fa-bar-chart"></i> Charts</a></li>
+                                                </div>
+                                                <div class="col-sm-3 col-md-2">
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/column.html"><i class="fa fa-columns"></i>Columns</a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/counters.html"><i class="fa fa-clock-o"></i> Counters </a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/dividers.html"><i class="fa fa-bars"></i>Dividers</a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/forms.html"><i class="fa fa-check-square-o"></i> Forms</a></li>
+                                                </div>
+                                                <div class="col-sm-3 col-md-2">
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/maps.html"><i class="fa fa-map-marker"></i>Google maps</a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/icons.html"><i class="fa fa-user"></i> Icons</a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/images.html"><i class="fa fa-picture-o"></i> Images</a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/media-embeds.html"><i class="fa fa-video-camera"></i>Media embeds</a></li>
+                                                </div>
+                                                <div class="col-sm-3 col-md-2">
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/notifications.html"><i class="fa fa-flag"></i>Notifications</a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/paginations.html"><i class="fa fa-chevron-circle-right"></i>Pagination</a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/progress.html"><i class="fa fa-tasks"></i>Progress bars</a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/promo.html"><i class="fa fa-cube"></i> Promoboxes</a></li>
+                                                </div>
+                                                <div class="col-sm-3 col-md-2">
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/sequences.html"><i class="fa fa-ellipsis-h"></i>Sequences</a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/sliders.html"><i class="fa fa-cogs"></i> Sliders</a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/tables.html"><i class="fa fa-table"></i> Tables</a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/tabs.html"><i class="fa fa-arrows"></i>Tabs</a></li>
+                                                </div>
+                                                <div class="col-sm-3 col-md-2">
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/testimonials.html"><i class="fa fa-comments"></i>Testimonials</a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/tooltips.html"><i class="fa fa-bookmark"></i>Tooltips</a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/typography.html"><i class="fa fa-font"></i> Typography</a></li>
+                                                    <li class="z-nav__item"><a class="z-nav__link" href="shortcodes/modals.html"><i class="fa  fa-th-large"></i>Modal windows</a></li>
+                                                </div>
+                                                <!-- <li class="z-nav__item"><a class="z-nav__link" href="#">Shortcodes</a></li> -->
+                                            </ul>
+                                            <!-- end subsidiary menu list-->
+                                        </li>
+                                </ul>
+                            </div>
+                            <!-- end list menu inner container -->
+                            <!-- end list menu item -->
+                        </nav>
+                        <!-- end navigation section -->
+                    </div>
+                    <!-- end container -->
+                </div>
+                <!-- end fixed top block -->
+                <div class="strip-helper-right"></div>
+                <div class="strip-helper-left"></div>
+                <div class="helper-nav waypoint" data-animate-down="header-up" data-animate-up="header-down"></div>
+                <canvas id="snowfall" class="snowfall"></canvas>
+                <div class="main-block">
+                    <img class="main-block__image" src="images/components/illustration.png" alt="">
+                    <div class="clearfix"></div>
+                    <a class="btn main-block__btn btn-special btn-lg" href="http://themeforest.net/item/allec-bootstrapless-template-with-page-builder/8986248#content">Get Our Special Offer</a>
+                </div>
+            </div>
+        </header>
+        <!-- /header -->
+        <section class="container">
+            <div class="">
+                <h2 class="block-title block-title--special block-title--top-larger">Christmas Specials</h2>
+                <div class="row animated-services">
+                    <div class="col-sm-6 col-md-4 hidden-xs">
+                        <!-- Sevrice preview -->
+                        <div class="service service--special animated zoomInStart start-1">
+                            <div class="icon">
+                                <div class="icon__item">
+                                    <i class="fa fa-users"></i>
+                                </div>
+                            </div>
+                            <a class="service__link" href="single-service.html">
+                                <h3 class="service__heading"><span class="service__offer">Get <span class="service__target">10% Bonus</span></span> for every new friends</h3>
+                            </a>
+                            <div class="service__text">
+                                <p>Better way to enjoy your holidays is together among friends! Make a crew and invite your besties to Allec community <strong>during December</strong>! Linterdum magna vitae, viverra est. Nunc eu sodales turpis, varius viverra mauris.</p>
+                            </div>
+                        </div>
+                        <!-- end sevrice preview -->
+                    </div>
+                    <!-- end col -->
+                    <div class="col-sm-6 col-md-4 hidden-xs">
+                        <!-- Sevrice preview -->
+                        <div class="service service--special animated zoomInStart start-2">
+                            <div class="icon">
+                                <div class="icon__item">
+                                    <i class="fa fa-cloud"></i>
+                                </div>
+                            </div>
+                            <a class="service__link" href="single-service.html">
+                                <h3 class="service__heading"><span class="service__offer">Get <span class="service__target">extra space</span></span> on Christmas Eve</h3>
+                            </a>
+                            <div class="service__text">
+                                <p>Aenean porta, elit vitae tristique consequat, nisi tellus tincidunt erat, sit amet interdum elit quam at velit. Mauris venenatis metus sed purus tincidunt placerat. </p>
+                            </div>
+                        </div>
+                        <!-- end sevrice preview -->
+                    </div>
+                    <!-- end col -->
+                    <div class="clearfix visible-sm"></div>
+                    <div class="col-sm-6 col-md-4 hidden-xs">
+                        <!-- Sevrice preview -->
+                        <div class="service service--special animated zoomInStart start-3">
+                            <div class="icon">
+                                <div class="icon__item">
+                                    <i class="fa fa-rocket"></i>
+                                </div>
+                            </div>
+                            <a class="service__link" href="single-service.html">
+                                <h3 class="service__heading"><span class="service__offer">cosmic <span class="service__target">mega pack</span></span> for our loyal clients</h3>
+                            </a>
+                            <div class="service__text">
+                                <p>You’re with us more than a year and we’re greatfull for that. Thank you for support! We have something extraordinary for our supper dedicated clients. Nunc eu sodales turpis, varius viverra mauris.</p>
+                            </div>
+                        </div>
+                        <!-- end sevrice preview -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+                <div class="swiper-container fearure-slider fearure-slider--special">
+                    <div class="swiper-wrapper">
+                        <!--Slide-->
+                        <div class="swiper-slide">
+                            <!-- Sevrice preview -->
+                            <div class="service service--special">
+                                <div class="icon">
+                                    <div class="icon__item">
+                                        <i class="fa fa-users"></i>
+                                    </div>
+                                </div>
+                                <a class="service__link" href="single-service.html">
+                                    <h3 class="service__heading"><span class="service__offer">Get <span class="service__target">10% Bonus</span></span> for every new friends</h3>
+                                </a>
+                                <div class="service__text">
+                                    <p>Better way to enjoy your holidays is together among friends! Make a crew and invite your besties to Allec community <strong>during December</strong>! Linterdum magna vitae, viverra est. Nunc eu sodales turpis, varius viverra mauris.</p>
+                                </div>
+                            </div>
+                            <!-- end sevrice preview -->
+                        </div>
+                        <!--Slide-->
+                        <div class="swiper-slide">
+                            <!-- Sevrice preview -->
+                            <div class="service service--special">
+                                <div class="icon">
+                                    <div class="icon__item">
+                                        <i class="fa fa-cloud"></i>
+                                    </div>
+                                </div>
+                                <a class="service__link" href="single-service.html">
+                                    <h3 class="service__heading"><span class="service__offer">Get <span class="service__target">extra space</span></span> on Christmas Eve</h3>
+                                </a>
+                                <div class="service__text">
+                                    <p>Aenean porta, elit vitae tristique consequat, nisi tellus tincidunt erat, sit amet interdum elit quam at velit. Mauris venenatis metus sed purus tincidunt placerat. </p>
+                                </div>
+                            </div>
+                            <!-- end sevrice preview -->
+                        </div>
+                        <!--Slide-->
+                        <div class="swiper-slide">
+                            <!-- Sevrice preview -->
+                            <div class="service service--special">
+                                <div class="icon">
+                                    <div class="icon__item">
+                                        <i class="fa fa-rocket"></i>
+                                    </div>
+                                </div>
+                                <a class="service__link" href="single-service.html">
+                                    <h3 class="service__heading"><span class="service__offer">cosmic <span class="service__target">mega pack</span></span> for our loyal clients</h3>
+                                </a>
+                                <div class="service__text">
+                                    <p>You’re with us more than a year and we’re greatfull for that. Thank you for support! We have something extraordinary for our supper dedicated clients. Nunc eu sodales turpis, varius viverra mauris.</p>
+                                </div>
+                            </div>
+                            <!-- end sevrice preview -->
+                        </div>
+                    </div>
+                    <div class="product-slider-pagination feature-pagination"></div>
+                </div>
+                <div class="divider-brand divider-brand--special divider--middle"></div>
+            </div>
+        </section>
+        <div class="number-container number--special bottom-space--small">
+            <div class="container">
+                <div class="row">
+                    <h2 class="block-title" id="number-start">Would like some candies?</h2>
+                    <!-- Brand shape stat view -->
+                    <div class="col-xs-6 col-md-3 one-column">
+                        <div class="stat stat--shape">
+                            <p class="stat__dimension">extra hours</p>
+                            <span class="stat__number" data-result="140" data-value="140">0</span>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-xs-6 col-md-3 one-column">
+                        <div class="stat stat--shape stat--shape-end">
+                            <p class="stat__dimension">extra space</p>
+                            <span class="stat__number" data-result="14G" data-value="14">0</span>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-xs-6 col-md-3 one-column">
+                        <div class="stat stat--shape">
+                            <p class="stat__dimension">bigger team</p>
+                            <span class="stat__number" data-result="+14" data-value="14">0</span>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-xs-6 col-md-3 one-column">
+                        <div class="stat stat--shape last">
+                            <p class="stat__dimension">subscribtion sale</p>
+                            <span class="stat__number" data-result="14%" data-value="14">0</span>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <section class="container">
+            <div class="row">
+                <div class="info-section">
+                    <div class="col-sm-6 sparkle-container">
+                        <div class="sparkle shine-position-1"></div>
+                        <div class="sparkle shine-position-2"></div>
+                        <div class="sparkle shine-position-3"></div>
+                        <div class="sparkle shine-position-4"></div>
+                        <div class="sparkle-sm shine-position-5"></div>
+                        <div class="sparkle-sm shine-position-6"></div>
+                        <div class="sparkle-sm shine-position-7"></div>
+                        <div class="sparkle-sm shine-position-8"></div>
+                        <div class="sparkle-sm shine-position-9"></div>
+                        <!-- White sparkle-->
+                        <div class="sparkle-null shine shine-delay-1 sparkle-position-1">
+                            <div class="sparkle-null shine-shadow shine-delay-5"></div>
+                        </div>
+                        <div class="sparkle-null shine shine-delay-2 sparkle-position-2">
+                            <div class="sparkle-null shine-shadow shine-delay-5"></div>
+                        </div>
+                        <div class="sparkle-null shine shine-delay-3 sparkle-position-3">
+                            <div class="sparkle-null shine-shadow shine-delay-5"></div>
+                        </div>
+                        <div class="sparkle-null shine  shine-delay-4 sparkle-position-4">
+                            <div class="sparkle-null shine-shadow shine-delay-5"></div>
+                        </div>
+                        <!-- end white sparkle -->
+                        <div class="image-holder dog-picture animated fadeInUpStart">
+                            <img src="images/photo-special.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <h2 class="heading-cascade heading-cascade--large heading-cascade--danger"><span class="heading-cascade__step">Allie is ready for Christmas.</span> What about you?</h2>
+                        <p class="p-space">Nam auctor dapibus ante vel facilisis. Cras eget adipiscing nisi.Duis aliquet ligula non risus sollicitudin commodo. Donec ullamcorper lacinia turpis at aliquet. Cras consectetur fermentum erat, in placerat ligula pharetra eget. </p>
+                        <a class="btn btn-special-light btn-lg" href="#">Learn More</a>
+                    </div>
+                    <!-- end col -->
+                </div>
+            </div>
+        </section>
+        <section class="special-pack">
+            <canvas id="snowfall-second" class="snowfall"></canvas>
+            <div class="container special-pack-container">
+                <h2 class="block-title block-title--simple">Allec Christmas Pack Benefits</h2>
+                <div class="row service--large-start">
+                    <div class="col-sm-6">
+                        <div class="service-container">
+                            <!-- Sevrice preview -->
+                            <div class="one-column col-xs-6 col-sm-12 service service--large-present animated zoomInStart start-1">
+                                <div class="icon-item">
+                                    <div class="icon-info-wrap">
+                                        <div class="icon-info">
+                                            <div class="icon-info-front wall-bell"></div>
+                                            <div class="icon-info-back wall-bell"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="service__link" href="#">
+                                    <h3 class="service__heading">Cloud Computing</h3>
+                                </a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in lacinia quam. Fusce quis nulla tincidunt, interdum magna vitae, viverra est. </p>
+                            </div>
+                            <!-- end sevrice preview -->
+                            <!-- Sevrice preview -->
+                            <div class="one-column col-xs-6 col-sm-12 service service--large-present animated zoomInStart start-2">
+                                <div class="icon-item">
+                                    <div class="icon-info-wrap">
+                                        <div class="icon-info">
+                                            <div class="icon-info-front wall-gift"></div>
+                                            <div class="icon-info-back wall-gift"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="service__link" href="#">
+                                    <h3 class="service__heading">Large Network</h3>
+                                </a>
+                                <p>Fusce in posuere lorem. Proin eleifend viverra orci, at blandit arcu feugiat mollis. Nunc congue erat ornare metus congue venenatis.</p>
+                            </div>
+                            <!-- end sevrice preview -->
+                            <!-- Sevrice preview -->
+                            <div class="one-column col-xs-6 col-sm-12 service service--large-present animated zoomInStart start-3">
+                                <div class="icon-item">
+                                    <div class="icon-info-wrap">
+                                        <div class="icon-info">
+                                            <div class="icon-info-front wall-santa_hat"></div>
+                                            <div class="icon-info-back wall-santa_hat"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="service__link" href="#">
+                                    <h3 class="service__heading">Prompt Launch</h3>
+                                </a>
+                                <p>Fusce diam nibh, sollicitudin eu fringilla eget, consequat tincidunt purus. Phasellus accumsan mi ultricies lorem feugiat sodales vitae sed turpis.</p>
+                            </div>
+                        </div>
+                        <!-- end sevrice preview -->
+                    </div>
+                    <!-- end col -->
+                    <div class="col-sm-6">
+                        <div class="service-container">
+                            <!-- Sevrice preview -->
+                            <div class="one-column col-xs-6 col-sm-12 service service--large-present 
+								animated zoomInStart start-1">
+                                <div class="icon-item">
+                                    <div class="icon-info-wrap">
+                                        <div class="icon-info">
+                                            <div class="icon-info-front wall-bow"></div>
+                                            <div class="icon-info-back wall-bow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="service__link" href="#">
+                                    <h3 class="service__heading">Web Design</h3>
+                                </a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in lacinia quam. Fusce quis nulla tincidunt, interdum magna vitae, viverra est. </p>
+                            </div>
+                            <!-- end sevrice preview -->
+                            <!-- Sevrice preview -->
+                            <div class="one-column col-xs-6 col-sm-12 service service--large-present animated zoomInStart start-2">
+                                <div class="icon-item">
+                                    <div class="icon-info-wrap">
+                                        <div class="icon-info">
+                                            <div class="icon-info-front wall-tree"></div>
+                                            <div class="icon-info-back wall-tree"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="service__link" href="#">
+                                    <h3 class="service__heading">App Design</h3>
+                                </a>
+                                <p>Fusce in posuere lorem. Proin eleifend viverra orci, at blandit arcu feugiat mollis. Nunc congue erat ornare metus congue venenatis.</p>
+                            </div>
+                            <!-- end sevrice preview -->
+                            <!-- Sevrice preview -->
+                            <div class="one-column col-xs-6 col-sm-12 service service--large-present
+								animated zoomInStart start-3">
+                                <div class="icon-item">
+                                    <div class="icon-info-wrap">
+                                        <div class="icon-info">
+                                            <div class="icon-info-front wall-snowflake"></div>
+                                            <div class="icon-info-back wall-snowflake"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="service__link" href="#">
+                                    <h3 class="service__heading">Development</h3>
+                                </a>
+                                <p>Fusce in posuere lorem. Proin eleifend viverra orci, at blandit arcu feugiat mollis. Nunc congue erat ornare metus congue venenatis.</p>
+                            </div>
+                            <!-- end sevrice preview -->
+                        </div>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+        </section>
+        <div class="promo promo--special">
+            <div class="promo-inner">
+                <div class="sparke-container-abs">
+                    <div class="sparkle shine-position-11"></div>
+                    <div class="sparkle shine-position-12"></div>
+                    <div class="sparkle-sm shine-position-13"></div>
+                    <div class="sparkle-sm shine-position-14"></div>
+                    <div class="sparkle-sm shine-position-15"></div>
+                    <div class="sparkle-sm shine-position-16"></div>
+                </div>
+                <h3 class="promo__heading">Allec Christmas Special</h3>
+                <p class="promo__describe">Only for the most wonderful clients!</p>
+                <a class="btn btn-special-light btn--decorated promo__btn" href="#">Get It Now</a>
+            </div>
+        </div>
+        <section class="container twitter-start">
+            <div class="twitter-pattern twitter--special animated fadeInUpStart">
+                <h2 class="block-title block-title--special block-title--top-larger">Keep Tracking Our News</h2>
+                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                    <div id="twitter-feed-list"></div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="divider-brand divider-brand--special divider--top-large"></div>
+            </div>
+        </section>
+        <!-- Colored divider -->
+        <div class="divider-color divider-color-special bottom-space"></div>
+        <!-- Footer section -->
+        <footer class="footer footer--simple footer--offer">
+            <div class="container">
+                <ul class="navigation navigation--add">
+                    <li><a href="site-map.html">Sitemap</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="pricing-tables.html">Terms of use</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                </ul>
+                <div class="copy">
+                    <svg class="logo__svg" width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+                        <g>
+                            <path class="logo__svg-path" d="m18.8,14c-1.2,-0.2 -2.3,0.1 -3.2,0.6c-0.8,0.5 -1.8,0.2 -2.4,-0.7c-0.4,-0.8 -0.2,-1.8 0.7,-2.3c1.4,-0.7 3,-1.2 4.7,-1.1c-0.2,-0.1 -0.4,-0.2 -0.6,-0.4c-0.8,-0.7 -1.8,-1.3 -3,-1.4c-2.6,-0.3 -5.1,1.5 -5.4,4s1.6,4.9 4.2,5.2c1.2,0.1 2.3,-0.1 3.2,-0.6c0.8,-0.5 1.8,-0.2 2.4,0.7c0.4,0.8 0.2,1.8 -0.7,2.3c-1.3,0.7 -3,1.2 -4.7,1.1c0.2,0.1 0.4,0.2 0.6,0.4c0.8,0.7 1.8,1.3 3,1.4c2.6,0.3 5.1,-1.5 5.4,-4c0.4,-2.4 -1.5,-4.8 -4.2,-5.2zm-2.8,-14c-8.8,0 -16,7.2 -16,16s7.2,16 16,16c8.8,0 16,-7.2 16,-16s-7.2,-16 -16,-16zm10.5,19.7c-0.6,4.5 -4.8,7.5 -9.4,7c-2,-0.3 -3.7,-1.2 -4.9,-2.4c-0.7,-0.7 -0.7,-1.8 0,-2.4c0.3,-0.3 0.7,-0.4 1,-0.5c-4.4,-0.6 -7.6,-4.7 -7.1,-9c0.6,-4.5 4.8,-7.5 9.3,-7c2,0.2 3.7,1.2 5,2.4c0.7,0.7 0.7,1.8 0,2.4c-0.3,0.3 -0.7,0.4 -1,0.5c4.5,0.6 7.7,4.6 7.1,9z" fill="#ffffff">
+                        </g>
+                    </svg>
+                    &copy; Allec, 2016. All rights reserved. Done by <a href="http://themeforest.net/user/olechka" target="_blank">Congruity Hub</a>
+                </div>
+            </div>
+            <!-- end container -->
+        </footer>
+        <!-- end footer section -->
+        <div class="top-scroll top-scroll-special"><i class="fa fa-angle-up"></i></div>
+    </div>
+    <!-- JavaScript-->
+    <!-- External-->
+    <!-- jQuery 1.10.1-->
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="external/jquery/jquery-1.10.1.min.js"><\/script>')
+    </script>
+    <!-- Bootstrap 3-->
+    <script src="../../maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- Mobile menu -->
+    <script src="external/z-nav/jquery.mobile.menu.js"></script>
+    <!-- Scroll to plugin -->
+    <script src="external/scrollto/jquery.scrollTo.min.js"></script>
+    <!-- Touch slider - Swiper -->
+    <script src="external/swiper/idangerous.swiper.js"></script>
+    <!-- Twitter feed -->
+    <script src="external/twitterfeed/twitterfeed.js"></script>
+    <!-- Snow -->
+    <script src="external/snow/rectangleEmitter.js"></script>
+    <script src="external/snow/snow.js"></script>
+    <!-- Event that will trigger when the element is scrolled in to the viewport.-->
+    <script src="external/inview/jquery.inview.js"></script>
+    <!-- Custom -->
+    <script src="js/custom.js"></script>
+    <script>
+    $(document).ready(function() {
+
+        function letitsnow(block, object, name, emitterObj) {
+            // https://github.com/daveWid/canvas-snow
+            var name = document.getElementById(object);
+            name.width = $(block).width();
+            name.height = $(block).height();
+
+            // Now the emitter
+            var emitter = Object.create(emitterObj);
+            emitter.setCanvas(name);
+            emitter.setBlastZone(0, -10, name.width, 1);
+            emitter.particle = snow;
+            emitter.runAhead(0);
+            emitter.start(60);
+        }
+
+        letitsnow(".header-offer", "snowfall", "canvas", rectangleEmitter);
+        letitsnow(".special-pack", "snowfall-second", "canvas2", rectangleEmitter1);
+
+        numberStart();
+
+        $('.animated-services').one('inview', function(event, visible) {
+            if (visible == true) {
+                $('.service--special.start-1').addClass('zoomIn');
+                $('.service--special.start-2').addClass('zoomIn stage2');
+                $('.service--special.start-3').addClass('zoomIn stage3');
+            }
+        });
+
+        $('.service--large-start').one('inview', function(event, visible) {
+            if (visible == true) {
+                $('.service--large-present.start-1').addClass('zoomIn');
+                $('.service--large-present.start-2').addClass('zoomIn stage2');
+                $('.service--large-present.start-3').addClass('zoomIn stage3');
+            }
+        });
+
+        $('.twitter-start').one('inview', function(event, visible) {
+            if (visible == true) {
+                $('.twitter--special').addClass('fadeInUp');
+            }
+        });
+
+        $('.dog-picture').one('inview', function(event, visible) {
+            if (visible == true) {
+                $('.dog-picture').addClass('fadeInUp');
+            }
+        });
+
+        Modernizr.addTest('hires', function() {
+            // starts with default value for modern browsers
+            var dpr = window.devicePixelRatio ||
+
+                // fallback for IE
+                (window.screen.deviceXDPI / window.screen.logicalXDPI) ||
+
+                // default value
+                1;
+
+            return !!(dpr > 1);
+        });
+
+        if (Modernizr.hires) {
+            $('.main-block__image').attr('src', 'images/components/illustration2x.png');
+        }
+
+        featureSlider();
+    });
+    </script>
+</body>
+
+
+<!-- Mirrored from allec.gozha.net/demo/index-christmas.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Jun 2017 09:04:56 GMT -->
+</html>

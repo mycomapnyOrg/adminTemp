@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.pcmshaper.com	TRUE	/	FALSE	1999999999	__cfduid	df119414ae211da1a1ed8d538f5ca74e21496392862
+.template-help.com	TRUE	/	FALSE	1999999999	__cfduid	da44e09412d57d21556fcbbb1e70414fe1496392862
+.shapebootstrap.net	TRUE	/	FALSE	1999999999	__cfduid	de520e2d10d44b93707f75b987a2234a01496396552
+shapebootstrap.net	TRUE	/	FALSE	1999999999	5a555d9ac79445b8546d63cae9293e7e	20ku8tc5r9gqn7i4ardfoqadm6
+shapebootstrap.net	TRUE	/	FALSE	1999999999	shapebootstrap_referral	shapebootstrap
+allec.gozha.net	TRUE	/	FALSE	1999999999	PHPSESSID	dk2dr91ebg318sqcp6l4f50uc3
+
