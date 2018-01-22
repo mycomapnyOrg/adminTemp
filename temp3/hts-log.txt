@@ -1,0 +1,19 @@
+HTTrack3.48-22 launched on Wed, 03 Jan 2018 18:54:10 at http://www.lab.westilian.com/westilo-admin/full-width-fluid-layout/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -iC2 http://www.lab.westilian.com/westilo-admin/full-width-fluid-layout/index.html -O "/var/www/html/Prasanth/payroll" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:55:28	Warning: 	Retry after error -4 (No data (connection closed)) at link www.lab.westilian.com/westilo-admin/full-width-fluid-layout/login-boxed.html (from www.lab.westilian.com/westilo-admin/full-width-fluid-layout/index.html)
+18:57:06	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 1688): www.lab.westilian.com/westilo-admin/full-width-fluid-layout/images/flags/4x3/ag.svg
+18:57:36	Error: 	"Not Found" (404) at link www.lab.westilian.com/westilo-admin/full-width-fluid-layout/images/avatar/Kevinthompson.jpg (from www.lab.westilian.com/westilo-admin/full-width-fluid-layout/index.html)
+19:01:29	Warning: 	Retry after error -4 (No data (connection closed)) at link www.lab.westilian.com/westilo-admin/full-width-fluid-layout/images/flags/1x1/ae.svg (from www.lab.westilian.com/westilo-admin/full-width-fluid-layout/css/components.css)
+19:01:30	Warning: 	Retry after error -4 (No data (connection closed)) at link www.lab.westilian.com/westilo-admin/full-width-fluid-layout/images/flags/4x3/af.svg (from www.lab.westilian.com/westilo-admin/full-width-fluid-layout/css/components.css)
+19:03:16	Error: 	"Not Found" (404) at link www.lab.westilian.com/westilo-admin/full-width-fluid-layout/images/collection.png (from www.lab.westilian.com/westilo-admin/full-width-fluid-layout/css/components.css)
+19:03:16	Error: 	"Not Found" (404) at link www.lab.westilian.com/westilo-admin/full-width-fluid-layout/images/collection_hover.png (from www.lab.westilian.com/westilo-admin/full-width-fluid-layout/css/components.css)
+19:03:16	Error: 	"Not Found" (404) at link sodipodi.sourceforge.net/DTD/sodipodi-0.dtd (from www.lab.westilian.com/westilo-admin/full-width-fluid-layout/images/flags/4x3/ls.svg)
+
+HTTrack Website Copier/3.48-22 mirror complete in 9 minutes 6 seconds : 771 links scanned, 763 files written (20616343 bytes overall), 145 files updated [1636750 bytes received at 2997 bytes/sec], 1073282 bytes transferred using HTTP compression in 76 files, ratio 26%, 3.4 requests per connection
+(4 errors, 4 warnings, 0 messages)
