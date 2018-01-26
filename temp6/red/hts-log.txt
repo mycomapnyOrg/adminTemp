@@ -1,0 +1,21 @@
+HTTrack3.48-22 launched on Fri, 26 Jan 2018 18:36:16 at dd.365bootstrap.com/demo/botksn/365bootstrap/RedRestaurant/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w dd.365bootstrap.com/demo/botksn/365bootstrap/RedRestaurant/index.html -O "/var/www/html/Prasanth/red" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:43:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dd.365bootstrap.com/demo/botksn/365bootstrap/RedRestaurant/js/jquery.min.js
+18:43:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dd.365bootstrap.com/demo/botksn/365bootstrap/RedRestaurant/js/modernizr.custom.min.js
+18:43:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dd.365bootstrap.com/demo/botksn/365bootstrap/RedRestaurant/js/jquery.magnific-popup.js
+18:43:51	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 29512): dd.365bootstrap.com/demo/botksn/365bootstrap/RedRestaurant/fonts/glyphicons-halflings-regular.ttf
+18:45:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dd.365bootstrap.com/cdn-cgi/scripts/d07b1474/cloudflare-static/email-decode.min.js
+18:45:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dd.365bootstrap.com/demo/botksn/365bootstrap/RedRestaurant/js/bootstrap.min.js
+18:45:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dd.365bootstrap.com/demo/botksn/365bootstrap/RedRestaurant/js/jquery.backTop.min.js
+18:45:33	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dd.365bootstrap.com/demo/botksn/365bootstrap/RedRestaurant/js/jquery.contact-buttons.js
+18:45:33	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dd.365bootstrap.com/demo/botksn/365bootstrap/RedRestaurant/js/demo.js
+18:46:32	Warning: 	HTML file (14213 bytes) retransferred due to lack of cache: dd.365bootstrap.com/demo/botksn/365bootstrap/RedRestaurant/contact.html
+
+HTTrack Website Copier/3.48-22 mirror complete in 10 minutes 16 seconds : 59 links scanned, 103 files written (7727756 bytes overall) [3899188 bytes received at 6329 bytes/sec], 907307 bytes transferred using HTTP compression in 30 files, ratio 39%, 1.3 requests per connection
+(No errors, 10 warnings, 0 messages)
