@@ -1,0 +1,4 @@
+php bin/console doctrine:mapping:convert xml   ./src/Trax/AdminBundle/Resources/config/doctrine/metadata/orm --from-database --force
+php bin/console doctrine:mapping:import TraxAdminBundle annotation
+bin/console doctrine:generate:entities TraxAdminBundle
+

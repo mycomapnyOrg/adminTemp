@@ -1,0 +1,6 @@
+react-native init MichelinRect
+ANDROID_HOME=/home/dotcue/android-sdk-linux_20sep2016
+export ANDROID_HOME
+react-native start
+with port => react-native start --port=8088
+

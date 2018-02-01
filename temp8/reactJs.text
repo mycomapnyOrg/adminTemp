@@ -1,0 +1,33 @@
+Create Project 
+	$ react-native init sample
+	$ cd Sample
+
+	Changes to Floder
+		open-> /var/www/html/MicheLearnReact/android/app/build.gradle
+		find buildTypes {
+			to add this Line -> signingConfig signingConfigs.release
+			
+		find defaultConfig { }
+		
+			to add this line -> signingConfigs { 
+							release { 
+								storeFile file(MYAPP_RELEASE_STORE_FILE) 
+								storePassword MYAPP_RELEASE_STORE_PASSWORD 
+								keyAlias MYAPP_RELEASE_KEY_ALIAS 
+								keyPassword MYAPP_RELEASE_KEY_PASSWORD 
+							} 
+						}
+				
+		open ->gradle.properties file 
+			
+		to add this last-> 	MYAPP_RELEASE_STORE_FILE=my-release-key.keystore
+					MYAPP_RELEASE_KEY_ALIAS=my-key-alias
+					MYAPP_RELEASE_STORE_PASSWORD=dotcue
+					MYAPP_RELEASE_KEY_PASSWORD=dotcue
+					
+
+
+	$ ANDROID_HOME=/home/dotcue/android-sdk-linux_20sep2016
+	$ export ANDROID_HOME
+	$ cd android && ./gradlew assemble (or) 	$ cd android && ./gradlew assembleRelease
+	$ react-native run-android

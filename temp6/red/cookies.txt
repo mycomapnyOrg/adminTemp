@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-.365bootstrap.com	TRUE	/	FALSE	1999999999	__cfduid	d404df3fbcea36ae4004fc2ecc94347671516971951
-
