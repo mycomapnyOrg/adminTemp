@@ -1,0 +1,422 @@
+HTTrack3.48-22 launched on Tue, 30 Jan 2018 10:05:46 at https://getbootstrapadmin.com/remark/material/base/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://getbootstrapadmin.com/remark/material/base/index.html -O "/var/www/html/Prasanth/New temp" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:15:48	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/material/base/uikit/exampleTabsReverseOne (from https://getbootstrapadmin.com/remark/material/base/uikit/tabs-accordions.html)
+10:15:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/breakpoints/breakpoints.min.js?v4.0.1
+10:15:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/Plugin/skintools.min.js?v4.0.1
+10:15:53	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/cdn-cgi/scripts/d07b1474/cloudflare-static/email-decode.min.js
+10:15:53	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/babel-external-helpers/babel-external-helpers.js?v4.0.1
+10:15:53	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jquery/jquery.min.js?v4.0.1
+10:15:54	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/popper-js/umd/popper.min.js?v4.0.1
+10:15:54	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/bootstrap/bootstrap.min.js?v4.0.1
+10:15:54	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/animsition/animsition.min.js?v4.0.1
+10:15:55	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/mousewheel/jquery.mousewheel.min.js?v4.0.1
+10:15:55	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/asscrollbar/jquery-asScrollbar.min.js?v4.0.1
+10:15:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/asscrollable/jquery-asScrollable.min.js?v4.0.1
+10:15:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/ashoverscroll/jquery-asHoverScroll.min.js?v4.0.1
+10:15:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/waves/waves.min.js?v4.0.1
+10:15:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/switchery/switchery.min.js?v4.0.1
+10:15:57	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/intro-js/intro.min.js?v4.0.1
+10:15:57	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/screenfull/screenfull.min.js?v4.0.1
+10:15:57	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/slidepanel/jquery-slidePanel.min.js?v4.0.1
+10:15:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/chartist/chartist.min.js?v4.0.1
+10:15:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/chartist-plugin-tooltip/chartist-plugin-tooltip.min.js?v4.0.1
+10:15:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jvectormap/jquery-jvectormap.min.js?v4.0.1
+10:15:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jvectormap/maps/jquery-jvectormap-world-mill-en.js?v4.0.1
+10:15:59	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/matchheight/jquery.matchHeight-min.js?v4.0.1
+10:15:59	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/peity/jquery.peity.min.js?v4.0.1
+10:15:59	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/State.min.js?v4.0.1
+10:16:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Component.min.js?v4.0.1
+10:16:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin.min.js?v4.0.1
+10:16:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Base.min.js?v4.0.1
+10:16:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Config.min.js?v4.0.1
+10:16:01	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/Section/Menubar.min.js?v4.0.1
+10:16:01	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/Section/GridMenu.min.js?v4.0.1
+10:16:01	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/Section/Sidebar.min.js?v4.0.1
+10:16:02	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/Section/PageAside.min.js?v4.0.1
+10:16:02	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/Plugin/menu.min.js?v4.0.1
+10:16:02	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/config/colors.min.js?v4.0.1
+10:16:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/config/tour.min.js?v4.0.1
+10:16:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/Site.min.js?v4.0.1
+10:16:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/asscrollable.min.js?v4.0.1
+10:16:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/slidepanel.min.js?v4.0.1
+10:16:04	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/switchery.min.js?v4.0.1
+10:16:04	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/matchheight.min.js?v4.0.1
+10:16:04	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/jvectormap.min.js?v4.0.1
+10:16:05	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/peity.min.js?v4.0.1
+10:16:05	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/dashboard/v1.min.js?v4.0.1
+10:16:06	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jquery-appear/jquery.appear.js?v4.0.1
+10:16:06	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/nprogress/nprogress.js?v4.0.1
+10:16:06	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/jquery-appear.min.js?v4.0.1
+10:16:07	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/nprogress.min.js?v4.0.1
+10:16:07	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/advanced/animation.min.js?v4.0.1
+10:16:08	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/ladda/spin.min.js?v4.0.1
+10:16:08	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/ladda/ladda.min.js?v4.0.1
+10:16:08	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/loading-button.min.js?v4.0.1
+10:16:08	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/more-button.min.js?v4.0.1
+10:16:09	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/ladda.min.js?v4.0.1
+10:16:09	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js?v4.0.1
+10:16:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/magnific-popup/jquery.magnific-popup.min.js?v4.0.1
+10:16:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/magnific-popup.min.js?v4.0.1
+10:16:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/advanced/lightbox.min.js?v4.0.1
+10:16:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/asprogress/jquery-asProgress.min.js?v4.0.1
+10:16:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/raty/jquery.raty.js?v4.0.1
+10:16:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/draggabilly/draggabilly.pkgd.min.js?v4.0.1
+10:16:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/responsive-tabs.min.js?v4.0.1
+10:16:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/tabs.min.js?v4.0.1
+10:16:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/asprogress.min.js?v4.0.1
+10:16:30	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/panel.min.js?v4.0.1
+10:16:30	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/raty.min.js?v4.0.1
+10:16:30	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/uikit/panel-structure.min.js?v4.0.1
+10:16:33	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/webui-popover/jquery.webui-popover.min.js?v4.0.1
+10:16:33	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/toolbar/jquery.toolbar.min.js?v4.0.1
+10:16:39	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/webui-popover.min.js?v4.0.1
+10:16:39	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/toolbar.min.js?v4.0.1
+10:16:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/uikit/tooltip-popover.min.js?v4.0.1
+10:16:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/advanced/scrollable.min.js?v4.0.1
+10:16:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/layout-grid/layout-grid.min.js?v4.0.1
+10:16:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/animate-list.min.js?v4.0.1
+10:16:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/layouts/panel-transition.min.js?v4.0.1
+10:16:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/pages/faq.min.js?v4.0.1
+10:16:45	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/isotope/isotope.pkgd.min.js?v4.0.1
+10:16:47	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/filterable.min.js?v4.0.1
+10:16:47	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/pages/gallery.min.js?v4.0.1
+10:16:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/aspaginator/jquery-asPaginator.min.js?v4.0.1
+10:16:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/aspaginator.min.js?v4.0.1
+10:16:49	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/gmaps/gmaps.min.js?v4.0.1
+10:16:49	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/gmaps.min.js?v4.0.1
+10:16:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/pages/map-google.min.js?v4.0.1
+10:16:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/pages/map-vector.min.js?v4.0.1
+10:16:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/material.min.js?v4.0.1
+10:16:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jquery-placeholder/jquery.placeholder.min.js?v4.0.1
+10:16:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/jquery-placeholder.min.js?v4.0.1
+10:17:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/bootstrap-treeview/bootstrap-treeview.min.js?v4.0.1
+10:17:21	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/codemirror/addon/scroll/simplescrollbars.js?v4.0.1
+10:17:21	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/codemirror/codemirror.js?v4.0.1
+10:17:21	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/codemirror/mode/xml/xml.js?v4.0.1
+10:17:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/codemirror/mode/css/css.js?v4.0.1
+10:17:30	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/codemirror/mode/htmlmixed/htmlmixed.js?v4.0.1
+10:17:36	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jquery-contextmenu/jquery.contextMenu.min.js?v4.0.1
+10:17:36	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/bootstrap-treeview.min.js?v4.0.1
+10:17:36	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/pages/code-editor.min.js?v4.0.1
+10:17:45	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/slick-carousel/slick.min.js?v4.0.1
+10:17:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/pages/profile-v2.min.js?v4.0.1
+10:17:47	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/plyr/plyr.js?v4.0.1
+10:17:47	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/plyr.min.js?v4.0.1
+10:17:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/pages/profile_v3.min.js?v4.0.1
+10:17:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/blueimp-tmpl/tmpl.min.js?v4.0.1
+10:17:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jquery-ui/jquery-ui.min.js?v4.0.1
+10:17:49	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/blueimp-canvas-to-blob/canvas-to-blob.min.js?v4.0.1
+10:17:49	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/blueimp-load-image/load-image.all.min.js?v4.0.1
+10:17:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/blueimp-file-upload/jquery.fileupload.js?v4.0.1
+10:17:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/blueimp-file-upload/jquery.fileupload-process.js?v4.0.1
+10:17:51	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/blueimp-file-upload/jquery.fileupload-image.js?v4.0.1
+10:17:51	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/blueimp-file-upload/jquery.fileupload-audio.js?v4.0.1
+10:17:51	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/blueimp-file-upload/jquery.fileupload-video.js?v4.0.1
+10:17:51	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/blueimp-file-upload/jquery.fileupload-validate.js?v4.0.1
+10:17:52	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/blueimp-file-upload/jquery.fileupload-ui.js?v4.0.1
+10:17:52	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/summernote/summernote.min.js?v4.0.1
+10:17:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/summernote.min.js?v4.0.1
+10:18:06	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/pages/project.min.js?v4.0.1
+10:18:08	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/uikit/panel-actions.min.js?v4.0.1
+10:18:08	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/lodash/lodash.min.js?v4.0.1
+10:18:08	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/gridstack/gridstack.min.js?v4.0.1
+10:18:09	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/gridstack/gridstack.jQueryUI.min.js?v4.0.1
+10:18:09	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/gridstack.min.js?v4.0.1
+10:18:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/closeable-tabs.min.js?v4.0.1
+10:18:19	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/uikit/progress-bars.min.js?v4.0.1
+10:18:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/owl-carousel/owl.carousel.min.js?v4.0.1
+10:18:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/owl-carousel.min.js?v4.0.1
+10:18:33	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/uikit/carousel.min.js?v4.0.1
+10:18:34	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/tablesaw/tablesaw.jquery.js?v4.0.1
+10:18:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/tablesaw.min.js?v4.0.1
+10:18:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/highlight/highlight.pack.js?v4.0.1
+10:18:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/highlight.min.js?v4.0.1
+10:18:36	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/advanced/highlight.min.js?v4.0.1
+10:18:37	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/advanced/context-menu.min.js?v4.0.1
+10:18:37	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/alertify/alertify.js?v4.0.1
+10:18:37	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/notie/notie.min.js?v4.0.1
+10:18:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/alertify.min.js?v4.0.1
+10:18:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/notie-js.min.js?v4.0.1
+10:18:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/imagesloaded/imagesloaded.pkgd.min.js?v4.0.1
+10:18:39	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/masonry/masonry.pkgd.min.js?v4.0.1
+10:18:39	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/masonry.min.js?v4.0.1
+10:18:39	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/toastr/toastr.min.js?v4.0.1
+10:18:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jstree/jstree.min.js?v4.0.1
+10:18:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/toastr.min.js?v4.0.1
+10:18:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/jstree.min.js?v4.0.1
+10:18:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/advanced/treeview.min.js?v4.0.1
+10:18:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jvectormap/maps/jquery-jvectormap-au-mill-en.js?v4.0.1
+10:18:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jvectormap/maps/jquery-jvectormap-ca-lcc-en.js?v4.0.1
+10:18:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jvectormap/maps/jquery-jvectormap-de-mill-en.js?v4.0.1
+10:18:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jvectormap/maps/jquery-jvectormap-fr-mill-en.js?v4.0.1
+10:18:45	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jvectormap/maps/jquery-jvectormap-uk_regions-mill-en.js?v4.0.1
+10:18:45	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jvectormap/maps/jquery-jvectormap-us-merc-en.js?v4.0.1
+10:18:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jvectormap/maps/jquery-jvectormap-za-mill-en.js?v4.0.1
+10:18:49	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jvectormap/maps/jquery-jvectormap-europe-mill-en.js?v4.0.1
+10:18:49	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jvectormap/maps/jquery-jvectormap-us-ny-newyork-mill-en.js?v4.0.1
+10:18:49	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/advanced/maps-google.min.js?v4.0.1
+10:18:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/sortable/Sortable.min.js?v4.0.1
+10:18:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/nestable/jquery.nestable.min.js?v4.0.1
+10:18:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/nestable.min.js?v4.0.1
+10:18:51	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/tasklist.min.js?v4.0.1
+10:18:51	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/bootbox/bootbox.min.js?v4.0.1
+10:18:52	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/bootstrap-sweetalert/sweetalert.min.js?v4.0.1
+10:18:52	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/bootbox.min.js?v4.0.1
+10:18:53	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/bootstrap-sweetalert.min.js?v4.0.1
+10:18:54	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/advanced/bootbox-sweetalert.min.js?v4.0.1
+10:19:09	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/structure/timeline.min.js?v4.0.1
+10:19:11	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/asbreadcrumbs/jquery-asBreadcrumbs.min.js?v4.0.1
+10:19:12	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/asbreadcrumbs.min.js?v4.0.1
+10:19:12	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/charts/peity.min.js?v4.0.1
+10:19:12	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/sparkline/jquery.sparkline.min.js?v4.0.1
+10:19:13	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/widgets/chart.min.js?v4.0.1
+10:19:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/widgets/weather.min.js?v4.0.1
+10:19:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/skycons/skycons.js?v4.0.1
+10:19:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/input-group-file.min.js?v4.0.1
+10:19:15	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/select2/select2.full.min.js?v4.0.1
+10:19:15	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js?v4.0.1
+10:19:15	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/bootstrap-tokenfield/bootstrap-tokenfield.min.js?v4.0.1
+10:19:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/bootstrap-select/bootstrap-select.min.js?v4.0.1
+10:19:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/icheck/icheck.min.js?v4.0.1
+10:19:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/asrange/jquery-asRange.min.js?v4.0.1
+10:19:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/ionrangeslider/ion.rangeSlider.min.js?v4.0.1
+10:19:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/asspinner/jquery-asSpinner.min.js?v4.0.1
+10:19:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/clockpicker/bootstrap-clockpicker.min.js?v4.0.1
+10:19:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/ascolor/jquery-asColor.min.js?v4.0.1
+10:19:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/asgradient/jquery-asGradient.min.js?v4.0.1
+10:19:19	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/ascolorpicker/jquery-asColorPicker.min.js?v4.0.1
+10:19:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/bootstrap-maxlength/bootstrap-maxlength.min.js?v4.0.1
+10:19:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jquery-knob/jquery.knob.min.js?v4.0.1
+10:19:21	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/bootstrap-touchspin/bootstrap-touchspin.min.js?v4.0.1
+10:19:21	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jquery-labelauty/jquery-labelauty.js?v4.0.1
+10:19:21	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/bootstrap-datepicker/bootstrap-datepicker.min.js?v4.0.1
+10:19:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/timepicker/jquery.timepicker.min.js?v4.0.1
+10:19:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/datepair/datepair.min.js?v4.0.1
+10:19:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/datepair/jquery.datepair.min.js?v4.0.1
+10:19:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jquery-strength/password_strength.js?v4.0.1
+10:19:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jquery-strength/jquery-strength.min.js?v4.0.1
+10:19:32	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/typeahead-js/bloodhound.min.js?v4.0.1
+10:19:32	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/multi-select/jquery.multi-select.js?v4.0.1
+10:19:33	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/typeahead-js/typeahead.jquery.min.js?v4.0.1
+10:19:33	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/select2.min.js?v4.0.1
+10:19:34	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/bootstrap-tokenfield.min.js?v4.0.1
+10:19:34	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/bootstrap-tagsinput.min.js?v4.0.1
+10:19:34	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/bootstrap-select.min.js?v4.0.1
+10:19:36	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/icheck.min.js?v4.0.1
+10:19:36	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/asrange.min.js?v4.0.1
+10:19:37	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/ionrangeslider.min.js?v4.0.1
+10:19:37	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/asspinner.min.js?v4.0.1
+10:19:37	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/clockpicker.min.js?v4.0.1
+10:19:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/ascolorpicker.min.js?v4.0.1
+10:19:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/bootstrap-maxlength.min.js?v4.0.1
+10:19:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/jquery-knob.min.js?v4.0.1
+10:19:39	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/bootstrap-touchspin.min.js?v4.0.1
+10:19:39	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/card.min.js?v4.0.1
+10:19:39	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/jquery-labelauty.min.js?v4.0.1
+10:19:39	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/bootstrap-datepicker.min.js?v4.0.1
+10:19:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/jt-timepicker.min.js?v4.0.1
+10:19:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/datepair.min.js?v4.0.1
+10:19:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/jquery-strength.min.js?v4.0.1
+10:19:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/multi-select.min.js?v4.0.1
+10:19:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/forms/advanced.min.js?v4.0.1
+10:19:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jquery-wizard/jquery-wizard.min.js?v4.0.1
+10:19:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/formvalidation/framework/bootstrap.min.js?v4.0.1
+10:19:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/jquery-wizard.min.js?v4.0.1
+10:19:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/forms/wizard.min.js?v4.0.1
+10:19:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/formvalidation/formValidation.min.js?v4.0.1
+10:19:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/formvalidation/framework/bootstrap4.min.js?v4.0.1
+10:19:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/forms/validation.min.js?v4.0.1
+10:19:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/formatter/jquery.formatter.min.js?v4.0.1
+10:19:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/formatter.min.js?v4.0.1
+10:19:45	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/bootstrap-markdown/bootstrap-markdown.js?v4.0.1
+10:19:45	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/forms/editor-summernote.min.js?v4.0.1
+10:19:45	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/marked/marked.min.js?v4.0.1
+10:19:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/to-markdown/to-markdown.js?v4.0.1
+10:19:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/ace-editor.min.js?v4.0.1
+10:19:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/ace/ace.js?v4.0.1
+10:19:47	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/cropper/cropper.min.js?v4.0.1
+10:19:47	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/forms/image-cropping.min.js?v4.0.1
+10:19:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/dropify/dropify.min.js?v4.0.1
+10:19:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/dropify.min.js?v4.0.1
+10:19:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/forms/uploads.min.js?v4.0.1
+10:19:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/asselectable.min.js?v4.0.1
+10:19:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/selectable.min.js?v4.0.1
+10:19:49	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/table.min.js?v4.0.1
+10:19:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/bootstrap-table/bootstrap-table.min.js?v4.0.1
+10:19:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/bootstrap-table/extensions/mobile/bootstrap-table-mobile.min.js?v4.0.1
+10:19:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/tables/bootstrap.min.js?v4.0.1
+10:19:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/floatthead/jquery.floatThead.min.js?v4.0.1
+10:19:51	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/floatthead.min.js?v4.0.1
+10:19:51	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/editable-table/mindmup-editabletable.js?v4.0.1
+10:19:52	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/editable-table.min.js?v4.0.1
+10:19:52	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/tables/editable.min.js?v4.0.1
+10:19:54	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jsgrid/jsgrid.min.js?v4.0.1
+10:20:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/tables/jsgrid-db.min.js?v4.0.1
+10:20:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/tables/jsgrid.min.js?v4.0.1
+10:20:36	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/moment/moment.min.js?v4.0.1
+10:20:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/footable/footable.min.js?v4.0.1
+10:20:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/tables/footable.min.js?v4.0.1
+10:20:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/datatables.net-bs4/dataTables.bootstrap4.js?v4.0.1
+10:20:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/datatables.net/jquery.dataTables.js?v4.0.1
+10:20:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/datatables.net-fixedheader/dataTables.fixedHeader.min.js?v4.0.1
+10:20:57	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/datatables.net-fixedcolumns/dataTables.fixedColumns.min.js?v4.0.1
+10:20:57	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/datatables.net-rowgroup/dataTables.rowGroup.min.js?v4.0.1
+10:20:57	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/datatables.net-scroller/dataTables.scroller.min.js?v4.0.1
+10:20:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/datatables.net-responsive/dataTables.responsive.min.js?v4.0.1
+10:20:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/datatables.net-responsive-bs4/responsive.bootstrap4.min.js?v4.0.1
+10:20:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/datatables.net-buttons/dataTables.buttons.min.js?v4.0.1
+10:20:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/datatables.net-buttons/buttons.html5.min.js?v4.0.1
+10:20:59	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/datatables.net-buttons/buttons.flash.min.js?v4.0.1
+10:20:59	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/datatables.net-buttons/buttons.print.min.js?v4.0.1
+10:20:59	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/datatables.net-buttons-bs4/buttons.bootstrap4.min.js?v4.0.1
+10:21:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/datatables.net-buttons/buttons.colVis.min.js?v4.0.1
+10:21:11	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/tables/datatable.min.js?v4.0.1
+10:21:11	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/datatables.min.js?v4.0.1
+10:21:11	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/uikit/icon.min.js?v4.0.1
+10:21:12	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/tables/jqtabledit.min.js?v4.0.1
+10:21:12	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jquery-tabledit/jquery.tabledit.min.js?v4.0.1
+10:21:13	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/table-dragger/table-dragger.min.js?v4.0.1
+10:21:13	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/tables/table-dragger.min.js?v4.0.1
+10:21:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/chart-js/Chart.min.js?v4.0.1
+10:21:15	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/charts/chartjs.min.js?v4.0.1
+10:21:15	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/gauge-js/gauge.min.js?v4.0.1
+10:21:15	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/gauge.min.js?v4.0.1
+10:21:15	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/donut.min.js?v4.0.1
+10:21:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/charts/gauges.min.js?v4.0.1
+10:21:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/flot/jquery.flot.js?v4.0.1
+10:21:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/flot/jquery.flot.resize.js?v4.0.1
+10:21:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/flot/jquery.flot.time.js?v4.0.1
+10:21:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/flot/jquery.flot.stack.js?v4.0.1
+10:21:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/flot/jquery.flot.pie.js?v4.0.1
+10:21:19	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/flot/jquery.flot.selection.js?v4.0.1
+10:21:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/charts/flot.min.js?v4.0.1
+10:21:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/charts/sparkline.min.js?v4.0.1
+10:21:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/raphael/raphael.min.js?v4.0.1
+10:21:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/morris/morris.min.js?v4.0.1
+10:21:21	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/charts/morris.min.js?v4.0.1
+10:21:21	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/charts/chartist.min.js?v4.0.1
+10:21:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/d3/d3.min.js?v4.0.1
+10:21:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/rickshaw/rickshaw.min.js?v4.0.1
+10:21:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/charts/rickshaw.min.js?v4.0.1
+10:21:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/aspieprogress/jquery-asPieProgress.min.js?v4.0.1
+10:21:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/aspieprogress.min.js?v4.0.1
+10:21:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/charts/pie-progress.min.js?v4.0.1
+10:21:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/c3/c3.min.js?v4.0.1
+10:21:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/charts/c3.min.js?v4.0.1
+10:21:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/sticky-header.min.js?v4.0.1
+10:21:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/action-btn.min.js?v4.0.1
+10:21:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/js/Plugin/editlist.min.js?v4.0.1
+10:21:45	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/BaseApp.min.js?v4.0.1
+10:21:45	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/App/Contacts.min.js?v4.0.1
+10:21:55	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/apps/contacts.min.js?v4.0.1
+10:21:57	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jquery-selective/jquery-selective.min.js?v4.0.1
+10:21:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/fullcalendar/fullcalendar.min.js?v4.0.1
+10:21:59	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/App/Calendar.min.js?v4.0.1
+10:21:59	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/apps/calendar.min.js?v4.0.1
+10:22:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/App/Notebook.min.js?v4.0.1
+10:22:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/apps/notebook.min.js?v4.0.1
+10:22:01	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/App/Taskboard.min.js?v4.0.1
+10:22:01	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/apps/taskboard.min.js?v4.0.1
+10:22:01	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/stickyfill/stickyfill.min.js?v4.0.1
+10:22:02	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/App/Documents.min.js?v4.0.1
+10:22:02	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/apps/documents.min.js?v4.0.1
+10:22:02	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/App/Forum.min.js?v4.0.1
+10:22:02	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/autosize/autosize.min.js?v4.0.1
+10:22:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/apps/forum.min.js?v4.0.1
+10:22:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/apps/message.min.js?v4.0.1
+10:22:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/App/Message.min.js?v4.0.1
+10:22:05	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/App/Projects.min.js?v4.0.1
+10:22:06	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/apps/projects.min.js?v4.0.1
+10:22:06	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/select2/select2.min.js?v4.0.1
+10:22:06	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/App/Mailbox.min.js?v4.0.1
+10:22:06	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/apps/mailbox.min.js?v4.0.1
+10:22:07	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/App/Media.min.js?v4.0.1
+10:22:07	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/apps/media.min.js?v4.0.1
+10:22:07	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/App/Work.min.js?v4.0.1
+10:22:08	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/apps/work.min.js?v4.0.1
+10:22:08	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/mapbox-js/leaflet.markercluster.js?v4.0.1
+10:22:08	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/mapbox-js/mapbox.js?v4.0.1
+10:22:09	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/App/Location.min.js?v4.0.1
+10:22:09	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/apps/location.min.js?v4.0.1
+10:22:12	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/js/App/Travel.min.js?v4.0.1
+10:22:12	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/base/assets/examples/js/apps/travel.min.js?v4.0.1
+10:24:10	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/fonts/material-design/material-design.eot?v=2.2.0
+10:24:11	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/fonts/material-design/material-design.eot?
+10:24:15	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/fonts/brand-icons/brand-icons.eot?v=0.3.2
+10:24:19	Warning: 	HTML file (94907 bytes) retransferred due to lack of cache: https://getbootstrapadmin.com/remark/material/base/advanced/animation.html
+10:24:19	Warning: 	Retry after error -4 (Interrupted transfer) at link https://getbootstrapadmin.com/remark/material/base/advanced/animation.html (from https://getbootstrapadmin.com/remark/material/base/index.html)
+10:24:19	Warning: 	HTML file (87257 bytes) retransferred due to lack of cache: https://getbootstrapadmin.com/remark/material/base/layouts/menu-collapsed.html
+10:24:19	Warning: 	HTML file (94907 bytes) retransferred due to lack of cache: https://getbootstrapadmin.com/remark/material/base/advanced/animation.html
+10:24:20	Warning: 	Retry after error -4 (Interrupted transfer) at link https://getbootstrapadmin.com/remark/material/base/layouts/menu-collapsed.html (from https://getbootstrapadmin.com/remark/material/base/index.html)
+10:24:20	Warning: 	HTML file (87257 bytes) retransferred due to lack of cache: https://getbootstrapadmin.com/remark/material/base/layouts/menu-collapsed.html
+10:24:26	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/fonts/7-stroke/7-stroke.eot?v=1.2.0
+10:24:33	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/fonts/mfglabs/mfglabs.eot?v=
+10:24:37	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/fonts/open-iconic/open-iconic.eot?v=1.1.1
+10:24:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/fonts/themify/themify.eot?v=1.0.1
+10:24:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/fonts/glyphicons/glyphicons-halflings-regular.eot
+10:24:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/fonts/glyphicons/glyphicons-halflings-regular.eot?
+10:24:52	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/fonts/web-icons/web-icons.eot?v=0.2.3
+10:24:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/fonts/octicons/octicons.eot?-fvbane
+10:25:01	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/jquery-contextmenu/font/context-menu-icons.eot?4llt4
+10:25:02	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/material/base/pages/apple-touch-icon.png (from https://getbootstrapadmin.com/remark/material/base/pages/code-editor.html)
+10:25:02	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/material/base/pages/css/normalize.css (from https://getbootstrapadmin.com/remark/material/base/pages/code-editor.html)
+10:25:02	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/material/base/pages/css/main.css (from https://getbootstrapadmin.com/remark/material/base/pages/code-editor.html)
+10:25:02	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/material/base/pages/js/vendor/modernizr-2.8.3.min.js (from https://getbootstrapadmin.com/remark/material/base/pages/code-editor.html)
+10:25:02	Error: 	"Not Found" (404) at link https://ajax.googleapis.com/ajax/libs/jquery//jquery.min.js (from https://getbootstrapadmin.com/remark/material/base/pages/code-editor.html)
+10:25:02	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/material/base/pages/js/vendor/jquery-.min.js (from https://getbootstrapadmin.com/remark/material/base/pages/code-editor.html)
+10:25:02	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/material/base/pages/js/plugins.js (from https://getbootstrapadmin.com/remark/material/base/pages/code-editor.html)
+10:25:02	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/material/base/pages/js/main.js (from https://getbootstrapadmin.com/remark/material/base/pages/code-editor.html)
+10:25:03	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/global/photos/animal-2-960x640-720x480.jpg (from https://getbootstrapadmin.com/remark/material/base/pages/profile-v3.html)
+10:25:03	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/global/photos/city-2-720x480-720x480.jpg (from https://getbootstrapadmin.com/remark/material/base/pages/profile-v3.html)
+10:25:03	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/global/photos/city-3-720x480-720x480.jpg (from https://getbootstrapadmin.com/remark/material/base/pages/profile-v3.html)
+10:25:03	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/global/photos/city-4-720x480-720x480.jpg (from https://getbootstrapadmin.com/remark/material/base/pages/profile-v3.html)
+10:25:03	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/global/photos/city-5-720x480-720x480.jpg (from https://getbootstrapadmin.com/remark/material/base/pages/profile-v3.html)
+10:25:03	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/global/photos/animal-1-720x480-720x480.jpg (from https://getbootstrapadmin.com/remark/material/base/pages/profile-v3.html)
+10:25:03	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://cdn.selz.com/plyr/1.0/logistics-96-sample.mp3 (from https://getbootstrapadmin.com/remark/material/base/pages/profile-v3.html)
+10:25:08	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://cdn.selz.com/plyr/1.0/logistics-96-sample.ogg (from https://getbootstrapadmin.com/remark/material/base/pages/profile-v3.html)
+10:25:14	Warning: 	Retry after error -4 (No data (connection closed)) at link https://getbootstrapadmin.com/remark/global/portraits/6.jpg (from https://getbootstrapadmin.com/remark/material/base/pages/profile-v3.html)
+10:25:14	Warning: 	Retry after error -4 (No data (connection closed)) at link https://getbootstrapadmin.com/remark/global/portraits/7.jpg (from https://getbootstrapadmin.com/remark/material/base/pages/profile-v3.html)
+10:25:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://getbootstrapadmin.com/remark/material/global/vendor/summernote/summernote.eot?
+10:25:49	Warning: 	HTML file (178 bytes) retransferred due to lack of cache: https://getbootstrapadmin.com/remark/material/base/uikit/exampleTabsReverseOne
+10:25:49	Warning: 	Retry after error -4 (Interrupted transfer) at link https://getbootstrapadmin.com/remark/material/base/uikit/exampleTabsReverseOne (from https://getbootstrapadmin.com/remark/material/base/uikit/tabs-accordions.html)
+10:25:49	Warning: 	HTML file (178 bytes) retransferred due to lack of cache: https://getbootstrapadmin.com/remark/material/base/uikit/exampleTabsReverseOne
+10:25:50	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/material/global/vendor/raty/jquery.raty.css?v4.0.1 (from https://getbootstrapadmin.com/remark/material/base/advanced/rating.html)
+10:25:50	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/material/global/js/Plugin/sortable.js?v4.0.1 (from https://getbootstrapadmin.com/remark/material/base/advanced/sortable-nestable.html)
+10:30:18	Warning: 	Retry after error -4 (Interrupted transfer) at link https://getbootstrapadmin.com/remark/material/base/advanced/animation.html (from https://getbootstrapadmin.com/remark/material/base/index.html)
+10:30:18	Warning: 	HTML file (94907 bytes) retransferred due to lack of cache: https://getbootstrapadmin.com/remark/material/base/advanced/animation.html
+10:30:18	Warning: 	Retry after error -4 (Interrupted transfer) at link https://getbootstrapadmin.com/remark/material/base/layouts/menu-collapsed.html (from https://getbootstrapadmin.com/remark/material/base/index.html)
+10:30:18	Warning: 	HTML file (87257 bytes) retransferred due to lack of cache: https://getbootstrapadmin.com/remark/material/base/layouts/menu-collapsed.html
+10:30:29	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/material/global/vendor/slick-carousel/${slick-loader-path}/ajax-loader.gif (from https://getbootstrapadmin.com/remark/material/global/vendor/slick-carousel/slick.min.css?v4.0.1)
+10:30:29	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://cdn.selz.com/plyr/1.0/logistics-96-sample.mp3 (from https://getbootstrapadmin.com/remark/material/base/pages/profile-v3.html)
+10:30:37	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://cdn.selz.com/plyr/1.0/logistics-96-sample.ogg (from https://getbootstrapadmin.com/remark/material/base/pages/profile-v3.html)
+10:30:45	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/material/global/vendor/blueimp-file-upload/file-type.png (from https://getbootstrapadmin.com/remark/material/global/vendor/blueimp-file-upload/jquery.fileupload.min.css?v4.0.1)
+10:30:45	Warning: 	Retry after error -4 (Interrupted transfer) at link https://getbootstrapadmin.com/remark/material/base/uikit/exampleTabsReverseOne (from https://getbootstrapadmin.com/remark/material/base/uikit/tabs-accordions.html)
+10:30:45	Warning: 	HTML file (178 bytes) retransferred due to lack of cache: https://getbootstrapadmin.com/remark/material/base/uikit/exampleTabsReverseOne
+10:30:45	Error: 	"Not Found" (404) at link https://getbootstrapadmin.com/remark/material/global/vendor/owl-carousel/owl.video.play.png (from https://getbootstrapadmin.com/remark/material/global/vendor/owl-carousel/owl.carousel.min.css?v4.0.1)
+10:30:49	Error: 	"Forbidden" (403) at link https://assets-cdn.github.com/ (from https://github.com/firstopinion/formatter.js)
+10:30:49	Error: 	"Not Found" (404) at link https://avatars0.githubusercontent.com/ (from https://github.com/firstopinion/formatter.js)
+10:30:50	Error: 	"Not Found" (404) at link https://avatars1.githubusercontent.com/ (from https://github.com/firstopinion/formatter.js)
+10:30:50	Error: 	"Not Found" (404) at link https://avatars2.githubusercontent.com/ (from https://github.com/firstopinion/formatter.js)
+10:31:17	Error: 	"Not Found" (404) at link https://avatars3.githubusercontent.com/ (from https://github.com/firstopinion/formatter.js)
+10:31:31	Warning: 	Note: due to https://github-cloud.s3.amazonaws.com remote robots.txt rules, links beginning with these path will be forbidden: / (see in the options to disable this)
+10:31:32	Error: 	"Forbidden" (403) at link https://github-cloud.s3.amazonaws.com/ (from https://github.com/firstopinion/formatter.js)
+10:31:45	Error: 	"Forbidden" (403) at link https://user-images.githubusercontent.com/ (from https://github.com/firstopinion/formatter.js)
+10:55:22	Error: 	"Not Found" (404) at link https://github.com/firstopinion/formatter.js/branches (from https://github.com/firstopinion/formatter.js)
+11:04:39	Error: 	Exit requested by shell or user
+11:04:45	Error: 	Exit requested by shell or user
+11:04:45	Error: 	Exit requested by shell or user
+11:04:45	Error: 	"" (-1) at link https://github.com/firstopinion/formatter.js/tree/0.0.9 (from https://github.com/firstopinion/formatter.js)
+11:04:45	Error: 	Exit requested by shell or user
+
+HTTrack Website Copier/3.48-22 mirror complete in 58 minutes 59 seconds : 2115 links scanned, 2668 files written (155432020 bytes overall) [66990849 bytes received at 18929 bytes/sec], 68405365 bytes transferred using HTTP compression in 2040 files, ratio 23%, 3.2 requests per connection
+(33 errors, 374 warnings, 0 messages)
+* * MIRROR ABORTED! * *
+The current temporary cache is required for any update operation and only contains data downloaded during the present aborted session.
+The former cache might contain more complete information; if you do not want to lose that information, you have to restore it and delete the current cache.
+This can easily be done here by erasing the hts-cache/new.* files]

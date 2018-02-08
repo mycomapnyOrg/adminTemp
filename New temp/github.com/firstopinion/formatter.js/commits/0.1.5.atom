@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/firstopinion/formatter.js/commits/0.1.5</id>
+  <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commits/0.1.5"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/firstopinion/formatter.js/commits/0.1.5.atom"/>
+  <title>Recent Commits to formatter.js:0.1.5</title>
+  <updated>2014-09-11T20:28:41Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/51c068bed4e78ba5db7f44911f7ae8ef259f692f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/51c068bed4e78ba5db7f44911f7ae8ef259f692f"/>
+    <title>
+        v0.1.5
+    </title>
+    <updated>2014-09-11T20:28:41Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;v0.1.5&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/e0f22e40c92e735c1a74df483075329d5a47fb0b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/e0f22e40c92e735c1a74df483075329d5a47fb0b"/>
+    <title>
+        Merge pull request #64 from oheard/master
+    </title>
+    <updated>2014-09-11T20:27:00Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #64 from oheard/master
+
+Add &amp;#39;main&amp;#39; property to bower.json for rails-assets support.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/2ba9e5013f2494f97a7495cc912c2c5a09c7f923</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/2ba9e5013f2494f97a7495cc912c2c5a09c7f923"/>
+    <title>
+        Add &#39;main&#39; property to bower.json
+    </title>
+    <updated>2014-09-11T14:56:28Z</updated>
+    <media:thumbnail height="30" width="30" url="https://1.gravatar.com/avatar/d7ff1182e3c2c3b2e46275d03ef10881?d=https%3A%2F%2Fassets-cdn.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=g&amp;s=30"/>
+    <author>
+      <name></name>
+      <email>ogheard@gmail.com</email>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Add &amp;#39;main&amp;#39; property to bower.json
+
+This should allow the package to be used with http://rails-assets.org&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/36660b4bc26ca916ab5f9b5567c59ca6a1eee615</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/36660b4bc26ca916ab5f9b5567c59ca6a1eee615"/>
+    <title>
+        Include all tests in _runner.
+    </title>
+    <updated>2014-05-09T22:29:39Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Include all tests in _runner.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8104493893d903e289a71be53dbd8201a5a8529e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/8104493893d903e289a71be53dbd8201a5a8529e"/>
+    <title>
+        Merge branch &#39;master&#39; of github.com:firstopinion/formatter.js
+    </title>
+    <updated>2014-05-09T22:27:22Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge branch &amp;#39;master&amp;#39; of github.com:firstopinion/formatter.js&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/96acb283fe7a2b8f07e629ffde8b6926bbfdfc55</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/96acb283fe7a2b8f07e629ffde8b6926bbfdfc55"/>
+    <title>
+        Should remove characters in correct order when backspacing over a for…
+    </title>
+    <updated>2014-05-09T22:25:10Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Should remove characters in correct order when backspacing over a formatted character.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/27ce2250c1d92ca67cc74c77ec4ac0f766b3e637</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/27ce2250c1d92ca67cc74c77ec4ac0f766b3e637"/>
+    <title>
+        Merge pull request #46 from muffinresearch/fix-typo-in-bower-json
+    </title>
+    <updated>2014-05-09T18:14:47Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #46 from muffinresearch/fix-typo-in-bower-json
+
+Fix typo in bower.json&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/0532de99a39322f393d3a880b2d308e369c85f18</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/0532de99a39322f393d3a880b2d308e369c85f18"/>
+    <title>
+        Fix typo in bower.json
+    </title>
+    <updated>2014-05-09T08:05:22Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/1514?s=30&amp;v=4"/>
+    <author>
+      <name>muffinresearch</name>
+      <uri>https://github.com/muffinresearch</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fix typo in bower.json&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/99f4366bf5395f8b9e569e7cfbf7e7fbabc18f5e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/99f4366bf5395f8b9e569e7cfbf7e7fbabc18f5e"/>
+    <title>
+        Break out specialKey and delKey recognition into keyPress and keyDown…
+    </title>
+    <updated>2014-05-09T04:32:36Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Break out specialKey and delKey recognition into keyPress and keyDown methods.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1628fd77b8a7a450f61078bf4323845ae5513a20</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/1628fd77b8a7a450f61078bf4323845ae5513a20"/>
+    <title>
+        Add mocha styles to test runner.
+    </title>
+    <updated>2014-05-09T00:50:07Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Add mocha styles to test runner.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d37a4fcdc46b19341a63d42f9d8b55adf9c4e7e9</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/d37a4fcdc46b19341a63d42f9d8b55adf9c4e7e9"/>
+    <title>
+        Ignore Gruntfile.js in bower distribution.
+    </title>
+    <updated>2014-05-09T00:29:23Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Ignore Gruntfile.js in bower distribution.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/51573f44ea2437e76ecfadd8775cad5fa2813d44</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/51573f44ea2437e76ecfadd8775cad5fa2813d44"/>
+    <title>
+        Ignore unnecessary files in bower distribution.
+    </title>
+    <updated>2014-05-09T00:24:56Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Ignore unnecessary files in bower distribution.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/7e9cba43e796e914c4e6782806f12e98aaa3027d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/7e9cba43e796e914c4e6782806f12e98aaa3027d"/>
+    <title>
+        Update .travis.yml to install bower_components.
+    </title>
+    <updated>2014-05-09T00:16:57Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Update .travis.yml to install bower_components.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f90acacb7c7d2c0bef27fc079699305b8f94431e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/f90acacb7c7d2c0bef27fc079699305b8f94431e"/>
+    <title>
+        Refactor to use AMD. Overhaul build process.
+    </title>
+    <updated>2014-05-09T00:07:22Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Refactor to use AMD. Overhaul build process.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/4b94b66e1f4246df3875979dc6a460aa1e9d9d0e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/4b94b66e1f4246df3875979dc6a460aa1e9d9d0e"/>
+    <title>
+        Merge pull request #38 from braintreeps/master
+    </title>
+    <updated>2014-03-20T00:29:10Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #38 from braintreeps/master
+
+Add multi-pattern support.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1239bc92510f7b58a0e7442adf28f6bf7d2d5ada</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/1239bc92510f7b58a0e7442adf28f6bf7d2d5ada"/>
+    <title>
+        Fix trailing format char bugs for persistent false.
+    </title>
+    <updated>2014-03-19T04:03:17Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/47405?s=30&amp;v=4"/>
+    <author>
+      <name>mickeyreiss</name>
+      <uri>https://github.com/mickeyreiss</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fix trailing format char bugs for persistent false.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ff4d23b91a7e0d35ab59f4a66dd8719a1b5082e3</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/ff4d23b91a7e0d35ab59f4a66dd8719a1b5082e3"/>
+    <title>
+        Fix trailing character bug.
+    </title>
+    <updated>2014-03-17T17:55:20Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/47405?s=30&amp;v=4"/>
+    <author>
+      <name>mickeyreiss</name>
+      <uri>https://github.com/mickeyreiss</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fix trailing character bug.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8ce0d4892511c4cf93c5b24440cd236faec6b567</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/8ce0d4892511c4cf93c5b24440cd236faec6b567"/>
+    <title>
+        Add multi-pattern support.
+    </title>
+    <updated>2014-03-17T17:51:45Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/47405?s=30&amp;v=4"/>
+    <author>
+      <name>mickeyreiss</name>
+      <uri>https://github.com/mickeyreiss</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Add multi-pattern support.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/56be36bf0ddb487b947ea10299091c2a9b5694e5</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/56be36bf0ddb487b947ea10299091c2a9b5694e5"/>
+    <title>
+        Merge Disable caret positioning on resetPattern #30
+    </title>
+    <updated>2014-03-03T01:08:28Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge Disable caret positioning on resetPattern #30&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/04c64ddd877f38ecb794596f46bd34ffea0f6978</id>
+    <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/commit/04c64ddd877f38ecb794596f46bd34ffea0f6978"/>
+    <title>
+        Merge pull request #35 from fabdouglas/patch-6
+    </title>
+    <updated>2014-02-28T20:51:01Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #35 from fabdouglas/patch-6
+
+Test for PR #31&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

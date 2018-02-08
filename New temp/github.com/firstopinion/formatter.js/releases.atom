@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:https://github.com/firstopinion/formatter.js/releases</id>
+  <link type="text/html" rel="alternate" href="https://github.com/firstopinion/formatter.js/releases"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/firstopinion/formatter.js/releases.atom"/>
+  <title>Release notes from formatter.js</title>
+  <updated>2014-09-11T20:28:41Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Repository/12876724/0.1.5</id>
+    <updated>2014-09-11T20:28:41Z</updated>
+    <link rel="alternate" type="text/html" href="/firstopinion/formatter.js/releases/tag/0.1.5"/>
+    <title>0.1.5</title>
+    <content type="html">&lt;p&gt;v0.1.5&lt;/p&gt;</content>
+    <author>
+      <name>jaridmargolin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/933685?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/12876724/0.1.4</id>
+    <updated>2014-05-09T22:29:39Z</updated>
+    <link rel="alternate" type="text/html" href="/firstopinion/formatter.js/releases/tag/0.1.4"/>
+    <title>0.1.4</title>
+    <content type="html">&lt;p&gt;Include all tests in _runner.&lt;/p&gt;</content>
+    <author>
+      <name>jaridmargolin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/933685?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/12876724/0.1.3</id>
+    <updated>2014-05-09T04:32:36Z</updated>
+    <link rel="alternate" type="text/html" href="/firstopinion/formatter.js/releases/tag/0.1.3"/>
+    <title>0.1.3: Break out specialKey and delKey recognition into keyPress and keyDown…</title>
+    <content type="html">&lt;p&gt;… methods.&lt;/p&gt;</content>
+    <author>
+      <name>jaridmargolin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/933685?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/12876724/0.1.2</id>
+    <updated>2014-05-09T00:29:23Z</updated>
+    <link rel="alternate" type="text/html" href="/firstopinion/formatter.js/releases/tag/0.1.2"/>
+    <title>0.1.2</title>
+    <content type="html">&lt;p&gt;Ignore Gruntfile.js in bower distribution.&lt;/p&gt;</content>
+    <author>
+      <name>jaridmargolin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/933685?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/12876724/0.1.1</id>
+    <updated>2014-05-09T00:24:56Z</updated>
+    <link rel="alternate" type="text/html" href="/firstopinion/formatter.js/releases/tag/0.1.1"/>
+    <title>0.1.1</title>
+    <content type="html">&lt;p&gt;Ignore unnecessary files in bower distribution.&lt;/p&gt;</content>
+    <author>
+      <name>jaridmargolin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/933685?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/12876724/0.1.0</id>
+    <updated>2014-05-09T00:07:22Z</updated>
+    <link rel="alternate" type="text/html" href="/firstopinion/formatter.js/releases/tag/0.1.0"/>
+    <title>0.1.0</title>
+    <content type="html">&lt;p&gt;Refactor to use AMD. Overhaul build process.&lt;/p&gt;</content>
+    <author>
+      <name>jaridmargolin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/933685?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/12876724/0.0.9</id>
+    <updated>2013-11-19T22:24:02Z</updated>
+    <link rel="alternate" type="text/html" href="/firstopinion/formatter.js/releases/tag/0.0.9"/>
+    <title>0.0.9</title>
+    <content type="html">&lt;p&gt;Fix maxLength error&lt;/p&gt;</content>
+    <author>
+      <name>jaridmargolin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/933685?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/12876724/0.0.8</id>
+    <updated>2013-11-18T22:32:35Z</updated>
+    <link rel="alternate" type="text/html" href="/firstopinion/formatter.js/releases/tag/0.0.8"/>
+    <title>0.0.8</title>
+    <content type="html">&lt;p&gt;bump to 0.0.8. Close &lt;a href=&quot;https://github.com/firstopinion/formatter.js/issues/22&quot; class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load issue title&quot; data-id=&quot;22822665&quot; data-permission-text=&quot;Issue title is private&quot; data-url=&quot;https://github.com/firstopinion/formatter.js/issues/22&quot;&gt;#22&lt;/a&gt;&lt;/p&gt;</content>
+    <author>
+      <name>jaridmargolin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/933685?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/12876724/0.0.6</id>
+    <updated>2013-11-04T10:50:59Z</updated>
+    <link rel="alternate" type="text/html" href="/firstopinion/formatter.js/releases/tag/0.0.6"/>
+    <title>0.0.6</title>
+    <content type="html">&lt;p&gt;0.0.6 release&lt;/p&gt;</content>
+    <author>
+      <name>jaridmargolin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/933685?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/12876724/0.0.4</id>
+    <updated>2013-10-31T00:27:56Z</updated>
+    <link rel="alternate" type="text/html" href="/firstopinion/formatter.js/releases/tag/0.0.4"/>
+    <title>0.0.4</title>
+    <content type="html">&lt;p&gt;bump package.json&lt;/p&gt;</content>
+    <author>
+      <name>jaridmargolin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/933685?s=60&amp;v=4"/>
+  </entry>
+</feed>
